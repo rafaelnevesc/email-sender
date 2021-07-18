@@ -6,16 +6,8 @@
   library(purrr)
   library(glue)
 
-## Definindo as credenciais e a função para enviar emails ---
+## Definindo a função para enviar emails ---
 
-    create_smtp_creds_key(
-      id = "gmail",
-      user = "ps.revistaarena@gmail.com",
-      provider = "gmail",
-      use_ssl = TRUE,
-      port = 465,
-      overwrite = TRUE
-    )
     
     enviar_email <- function(email, bcc) {
       
