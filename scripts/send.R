@@ -6,7 +6,7 @@
   library(purrr)
   library(glue)
 
-## Definindo a função para enviar emails ---
+##  a função para enviar emails ---
 
     
     enviar_email <- function(email, bcc) {
