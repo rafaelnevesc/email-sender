@@ -1,6 +1,5 @@
 ## Enviando com a função purrr::map2 ----
-    
-   
+
     map2(emails_bodies, receivers, enviar_email)
     
       # Necessário colocar em ordem de argumentos que foram apresentados quando
