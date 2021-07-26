@@ -37,7 +37,7 @@ library(glue)
         
         # Necessário inserir o assunto
         
-        subject = " "
+        subject = "Este é um teste"
       )
     }
     
